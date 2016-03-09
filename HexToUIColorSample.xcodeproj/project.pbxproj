@@ -12,6 +12,7 @@
 		26977C011C8F32B4003EA280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26977BFF1C8F32B4003EA280 /* Main.storyboard */; };
 		26977C031C8F32B4003EA280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26977C021C8F32B4003EA280 /* Assets.xcassets */; };
 		26977C061C8F32B4003EA280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26977C041C8F32B4003EA280 /* LaunchScreen.storyboard */; };
+		A6E2151B1C8FE74D0020CE22 /* HexToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2151A1C8FE74D0020CE22 /* HexToUIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		26977C021C8F32B4003EA280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26977C051C8F32B4003EA280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26977C071C8F32B4003EA280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E2151A1C8FE74D0020CE22 /* HexToUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexToUIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		26977BFA1C8F32B4003EA280 /* HexToUIColorSample */ = {
 			isa = PBXGroup;
 			children = (
+				A6E215191C8FE74D0020CE22 /* HexToUIColor */,
 				26977BFB1C8F32B4003EA280 /* AppDelegate.swift */,
 				26977BFD1C8F32B4003EA280 /* ViewController.swift */,
 				26977BFF1C8F32B4003EA280 /* Main.storyboard */,
@@ -63,6 +66,14 @@
 			);
 			path = HexToUIColorSample;
 			sourceTree = "<group>";
+		};
+		A6E215191C8FE74D0020CE22 /* HexToUIColor */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2151A1C8FE74D0020CE22 /* HexToUIColor.swift */,
+			);
+			path = HexToUIColor;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -137,6 +148,7 @@
 			files = (
 				26977BFE1C8F32B4003EA280 /* ViewController.swift in Sources */,
 				26977BFC1C8F32B4003EA280 /* AppDelegate.swift in Sources */,
+				A6E2151B1C8FE74D0020CE22 /* HexToUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				26977C0C1C8F32B4003EA280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
